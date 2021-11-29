@@ -1,0 +1,21 @@
+{
+  "name": "cellular-automata",
+  "version": "1.0.0",
+  "description": "1D cellular automata using two.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grant Pitt",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "dependencies": {
+    "gl-matrix": "^3.4.3",
+    "p5": "^1.4.0",
+    "two.js": "^0.7.12"
+  }
+}
